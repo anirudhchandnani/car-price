@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><u>Car Price Prediction App</u></title>
+    <title>Car Price Prediction App</title>
 </head>
 
 <body>
 
     <div style="color:white">
         <form action="{{ url_for('predict')}}" method="post">
-            <h2>Car Selling Price Prediction</h2>
+            <h2><u>Car Selling Price Prediction</u></h2>
             <h3>Year</h3>
             <input id="first" name="Year" type="number ">
             <h3>What is the Showroom Price?(In lakhs)</h3><br><input id="second" name="Present_Price" required="required">
